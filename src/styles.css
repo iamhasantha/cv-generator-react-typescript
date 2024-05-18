@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #cv-preview {
+    width: 210mm; /* A4 size */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: black;
+  }
+  
+  #cv-preview h1, #cv-preview h2 {
+    margin-top: 0;
+  }
+  
